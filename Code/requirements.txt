@@ -1,0 +1,14 @@
+# Supported project interpreters: CPython 3.12 and 3.13 x64. Recreate .venv per interpreter.
+# Keep NumPy below 2.3 to match the OpenCV wheel's supported range.
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-multipart==0.0.20
+jinja2==3.1.6
+httpx==0.28.1
+pydantic-settings==2.9.1
+beautifulsoup4==4.13.4
+Pillow==11.2.1
+numpy==2.2.6
+opencv-python-headless==4.11.0.86
+playwright==1.52.0
+greenlet==3.2.2

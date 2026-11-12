@@ -1,0 +1,301 @@
+image_id,challenge_type,filename,ground_truth,prompt,length,challenge_id,seed,created_at
+242,synthetic_image_grid,grid_0042.png,9,Select all green triangles.,1,33bb8007-903c-41e9-8487-cfb51f0fb190,20461153,2026-11-12T16:06:59.905925+00:00
+51,synthetic_text,text_0051.png,RMVNA,Transcribe the five characters shown in the image.,5,92e08661-d33c-4c9e-911e-ca875e41ffef,20261162,2026-11-12T16:06:59.905925+00:00
+98,synthetic_text,text_0098.png,NQTXM,Transcribe the five characters shown in the image.,5,a488ec07-18a5-44e6-9dd5-12b22c0b81bd,20261209,2026-11-12T16:06:59.905925+00:00
+215,synthetic_image_grid,grid_0015.png,"4,6,7",Select all red squares.,5,4656c964-a46d-45d9-8a2d-62547404c502,20461126,2026-11-12T16:06:59.905925+00:00
+115,synthetic_arithmetic,math_0015.png,12,Calculate the expression shown in the image.,2,5315cf92-9a29-4754-8017-b76439405c77,20361126,2026-11-12T16:06:59.905925+00:00
+129,synthetic_arithmetic,math_0029.png,8,Calculate the expression shown in the image.,1,c0879d44-3d4d-428d-898f-58c93df25d17,20361140,2026-11-12T16:06:59.905925+00:00
+66,synthetic_text,text_0066.png,TVTQJ,Transcribe the five characters shown in the image.,5,56e045d5-370e-4779-aad9-f95e60155016,20261177,2026-11-12T16:06:59.905925+00:00
+148,synthetic_arithmetic,math_0048.png,15,Calculate the expression shown in the image.,2,51259b03-ee36-4339-a496-b26d769cc5c8,20361159,2026-11-12T16:06:59.905925+00:00
+85,synthetic_text,text_0085.png,PUFYU,Transcribe the five characters shown in the image.,5,319892a2-256c-4ed3-bf88-b917e30c59ad,20261196,2026-11-12T16:06:59.905925+00:00
+76,synthetic_text,text_0076.png,DUJTC,Transcribe the five characters shown in the image.,5,179a2006-7457-4443-9453-2d02e1379c99,20261187,2026-11-12T16:06:59.905925+00:00
+114,synthetic_arithmetic,math_0014.png,8,Calculate the expression shown in the image.,1,49f5423e-e11a-4f8f-aab3-11717dbe549a,20361125,2026-11-12T16:06:59.905925+00:00
+274,synthetic_image_grid,grid_0074.png,"4,5,7",Select all orange circles.,5,72ffb5d7-9114-4fd6-b55b-726f617eb172,20461185,2026-11-12T16:06:59.905925+00:00
+24,synthetic_text,text_0024.png,RJUHN,Transcribe the five characters shown in the image.,5,ea5427d3-07c3-42b3-a26a-09036ab6abc7,20261135,2026-11-12T16:06:59.905925+00:00
+112,synthetic_arithmetic,math_0012.png,16,Calculate the expression shown in the image.,2,ae3855c8-eda4-423d-b686-a73d58ec0a2b,20361123,2026-11-12T16:06:59.905925+00:00
+75,synthetic_text,text_0075.png,MDNDF,Transcribe the five characters shown in the image.,5,b7d9d525-5c4f-4fb2-8df7-46dd03ed77f0,20261186,2026-11-12T16:06:59.905925+00:00
+162,synthetic_arithmetic,math_0062.png,6,Calculate the expression shown in the image.,1,b6e044da-abd9-4754-a9a9-c65ec5d66a14,20361173,2026-11-12T16:06:59.905925+00:00
+36,synthetic_text,text_0036.png,NXRQR,Transcribe the five characters shown in the image.,5,c400a1a8-1ce5-4be9-844f-f89157fe044f,20261147,2026-11-12T16:06:59.905925+00:00
+203,synthetic_image_grid,grid_0003.png,"4,7",Select all green squares.,3,285ead22-dca1-40fb-8f41-762c6c9f3e3b,20461114,2026-11-12T16:06:59.905925+00:00
+289,synthetic_image_grid,grid_0089.png,"3,4,5",Select all green circles.,5,e8557e15-8d7e-4130-9fd1-e36023f97105,20461200,2026-11-12T16:06:59.905925+00:00
+288,synthetic_image_grid,grid_0088.png,"2,3,9",Select all green squares.,5,2f1c5778-8a78-4210-8394-c07c8b830aa5,20461199,2026-11-12T16:06:59.905925+00:00
+287,synthetic_image_grid,grid_0087.png,"2,4,9",Select all blue triangles.,5,d7ba76bc-348d-4bb4-82b7-936220d60709,20461198,2026-11-12T16:06:59.905925+00:00
+181,synthetic_arithmetic,math_0081.png,48,Calculate the expression shown in the image.,2,8d94a4b6-e4aa-4f66-a1c8-a4c2c4dcfb7d,20361192,2026-11-12T16:06:59.905925+00:00
+150,synthetic_arithmetic,math_0050.png,20,Calculate the expression shown in the image.,2,84e6cdb2-7355-47cd-b48f-ceb48037ed2c,20361161,2026-11-12T16:06:59.905925+00:00
+190,synthetic_arithmetic,math_0090.png,7,Calculate the expression shown in the image.,1,289589ad-6268-4121-b101-6f25d8178b3e,20361201,2026-11-12T16:06:59.905925+00:00
+142,synthetic_arithmetic,math_0042.png,6,Calculate the expression shown in the image.,1,6bd483f4-4841-47b0-9be6-cf9df3c06b88,20361153,2026-11-12T16:06:59.905925+00:00
+50,synthetic_text,text_0050.png,UHEHY,Transcribe the five characters shown in the image.,5,e82fe3b7-8fe3-44d2-9319-39a446c8fd34,20261161,2026-11-12T16:06:59.905925+00:00
+101,synthetic_arithmetic,math_0001.png,12,Calculate the expression shown in the image.,2,75b743a8-c63c-498f-bfd0-3248ca7c6ee1,20361112,2026-11-12T16:06:59.905925+00:00
+27,synthetic_text,text_0027.png,XQHRF,Transcribe the five characters shown in the image.,5,085a7ab3-d5b5-44df-a5a2-42c36c27a76d,20261138,2026-11-12T16:06:59.905925+00:00
+235,synthetic_image_grid,grid_0035.png,"1,7,8",Select all orange circles.,5,97de775b-fc6f-4932-b9ad-2d9da86a294c,20461146,2026-11-12T16:06:59.905925+00:00
+237,synthetic_image_grid,grid_0037.png,"1,5",Select all yellow circles.,3,fdd4f4ee-efc5-4561-bf39-8fe75bcab12c,20461148,2026-11-12T16:06:59.905925+00:00
+39,synthetic_text,text_0039.png,EXDFA,Transcribe the five characters shown in the image.,5,4893e500-b318-40df-94fa-61b023da1f43,20261150,2026-11-12T16:06:59.905925+00:00
+197,synthetic_arithmetic,math_0097.png,21,Calculate the expression shown in the image.,2,ddc3ead6-3d33-45af-9090-fe36e0cd4f0d,20361208,2026-11-12T16:06:59.905925+00:00
+160,synthetic_arithmetic,math_0060.png,9,Calculate the expression shown in the image.,1,b01bcc4f-5e07-4822-b4b3-ad841752dea1,20361171,2026-11-12T16:06:59.905925+00:00
+70,synthetic_text,text_0070.png,UHPTX,Transcribe the five characters shown in the image.,5,06878492-9572-44a9-8c7a-f0328121bb2b,20261181,2026-11-12T16:06:59.905925+00:00
+81,synthetic_text,text_0081.png,JXEWD,Transcribe the five characters shown in the image.,5,33eb122b-5eea-4532-bd86-dd5711d9a97c,20261192,2026-11-12T16:06:59.905925+00:00
+172,synthetic_arithmetic,math_0072.png,13,Calculate the expression shown in the image.,2,b89890a4-4812-4a10-ad5e-c03fcd730cc6,20361183,2026-11-12T16:06:59.905925+00:00
+103,synthetic_arithmetic,math_0003.png,18,Calculate the expression shown in the image.,2,4955bd45-b7cb-4622-83b6-080483b2bf22,20361114,2026-11-12T16:06:59.905925+00:00
+269,synthetic_image_grid,grid_0069.png,"6,8",Select all yellow circles.,3,f8a4c687-19c2-4196-9fda-e9b0ad709ba5,20461180,2026-11-12T16:06:59.905925+00:00
+260,synthetic_image_grid,grid_0060.png,"1,3,7",Select all orange squares.,5,7366e07b-fc9c-48c7-818f-872e377478f4,20461171,2026-11-12T16:06:59.905925+00:00
+189,synthetic_arithmetic,math_0089.png,20,Calculate the expression shown in the image.,2,b954d7a0-b290-4229-b202-3029aa0d6642,20361200,2026-11-12T16:06:59.905925+00:00
+6,synthetic_text,text_0006.png,FAKJJ,Transcribe the five characters shown in the image.,5,b3be48e1-f3a6-4ee7-a18f-1f295836c01f,20261117,2026-11-12T16:06:59.905925+00:00
+96,synthetic_text,text_0096.png,FEFFP,Transcribe the five characters shown in the image.,5,94014fd9-3ba0-41cb-9043-d9946efb6dca,20261207,2026-11-12T16:06:59.905925+00:00
+111,synthetic_arithmetic,math_0011.png,4,Calculate the expression shown in the image.,1,f95d27f3-47fc-4ad6-9199-f0d38b6a5ff2,20361122,2026-11-12T16:06:59.905925+00:00
+280,synthetic_image_grid,grid_0080.png,"1,5",Select all purple circles.,3,512e452a-6bec-4e05-9f7c-6ddae1ddbf32,20461191,2026-11-12T16:06:59.905925+00:00
+25,synthetic_text,text_0025.png,WKWXD,Transcribe the five characters shown in the image.,5,d5872e4d-3625-4e64-bf39-7b358a84e702,20261136,2026-11-12T16:06:59.905925+00:00
+15,synthetic_text,text_0015.png,VUCDN,Transcribe the five characters shown in the image.,5,ae921c64-f804-4f87-b4cd-ca6dcdc8ffd7,20261126,2026-11-12T16:06:59.905925+00:00
+248,synthetic_image_grid,grid_0048.png,"1,7,8,9",Select all red circles.,7,8b1b14d4-3640-4a7e-aaad-c823cfb0640a,20461159,2026-11-12T16:06:59.905925+00:00
+141,synthetic_arithmetic,math_0041.png,13,Calculate the expression shown in the image.,2,91573b36-7452-432e-9793-c0f00cec08e5,20361152,2026-11-12T16:06:59.905925+00:00
+205,synthetic_image_grid,grid_0005.png,"2,4,6,7",Select all purple circles.,7,07ae1efb-7cd4-42d9-bb38-4106ee73defd,20461116,2026-11-12T16:06:59.905925+00:00
+238,synthetic_image_grid,grid_0038.png,3,Select all red triangles.,1,228a61bc-8370-4e07-872f-2d201e07f3db,20461149,2026-11-12T16:06:59.905925+00:00
+77,synthetic_text,text_0077.png,QWDVT,Transcribe the five characters shown in the image.,5,50989a4b-d6ee-49ac-b799-1fe5b1e40829,20261188,2026-11-12T16:06:59.905925+00:00
+94,synthetic_text,text_0094.png,ATAAR,Transcribe the five characters shown in the image.,5,70a1e2e9-c625-4c1a-acd7-62335ba670e7,20261205,2026-11-12T16:06:59.905925+00:00
+120,synthetic_arithmetic,math_0020.png,13,Calculate the expression shown in the image.,2,e9fe3232-15b1-4f4b-9ad6-12a1651c175c,20361131,2026-11-12T16:06:59.905925+00:00
+46,synthetic_text,text_0046.png,FKUQC,Transcribe the five characters shown in the image.,5,0dae7457-74b1-4d46-b3cd-360a15414d52,20261157,2026-11-12T16:06:59.905925+00:00
+133,synthetic_arithmetic,math_0033.png,10,Calculate the expression shown in the image.,2,cfe6ac4d-7df4-4805-bf13-7fca1d7d12f2,20361144,2026-11-12T16:06:59.905925+00:00
+126,synthetic_arithmetic,math_0026.png,12,Calculate the expression shown in the image.,2,837c3687-caae-4b88-a78d-48dd6722ca94,20361137,2026-11-12T16:06:59.905925+00:00
+171,synthetic_arithmetic,math_0071.png,15,Calculate the expression shown in the image.,2,7524aac8-3334-4259-8214-6ac1f914b4e9,20361182,2026-11-12T16:06:59.905925+00:00
+262,synthetic_image_grid,grid_0062.png,"1,4,8,9",Select all orange triangles.,7,d65a5b54-5c44-4dda-9096-a93baa7a908f,20461173,2026-11-12T16:06:59.905925+00:00
+191,synthetic_arithmetic,math_0091.png,12,Calculate the expression shown in the image.,2,14e6fbb1-b655-4c9c-a0d4-a2a4108c5655,20361202,2026-11-12T16:06:59.905925+00:00
+202,synthetic_image_grid,grid_0002.png,"5,7",Select all green triangles.,3,6417dabb-69ff-453a-8ade-5f40b1a24907,20461113,2026-11-12T16:06:59.905925+00:00
+209,synthetic_image_grid,grid_0009.png,"4,8",Select all yellow triangles.,3,8fdcc961-a1df-417f-bade-cfb28d8c5633,20461120,2026-11-12T16:06:59.905925+00:00
+214,synthetic_image_grid,grid_0014.png,"2,4,5",Select all orange squares.,5,cdbf8a7f-e01c-4ae3-bbae-edf47b87c07b,20461125,2026-11-12T16:06:59.905925+00:00
+89,synthetic_text,text_0089.png,JRAMH,Transcribe the five characters shown in the image.,5,71068c92-c61d-4d03-83c9-3291dfa2af8c,20261200,2026-11-12T16:06:59.905925+00:00
+78,synthetic_text,text_0078.png,NPJWY,Transcribe the five characters shown in the image.,5,bed82620-860c-435f-aa6e-9312f039a737,20261189,2026-11-12T16:06:59.905925+00:00
+49,synthetic_text,text_0049.png,NMCKQ,Transcribe the five characters shown in the image.,5,5296fecf-ca15-4d8b-aca7-cfb988c10989,20261160,2026-11-12T16:06:59.905925+00:00
+54,synthetic_text,text_0054.png,QHMWX,Transcribe the five characters shown in the image.,5,849116da-a733-43b1-9ceb-ac99cd1a8b1f,20261165,2026-11-12T16:06:59.905925+00:00
+41,synthetic_text,text_0041.png,MHKDV,Transcribe the five characters shown in the image.,5,3fc1d0af-cfa2-4dc9-b0d9-c26ffe1d74ff,20261152,2026-11-12T16:06:59.905925+00:00
+159,synthetic_arithmetic,math_0059.png,11,Calculate the expression shown in the image.,2,af135ff8-b416-4467-a023-9759c07d1689,20361170,2026-11-12T16:06:59.905925+00:00
+244,synthetic_image_grid,grid_0044.png,"5,6,8",Select all orange triangles.,5,9360401c-7719-4bff-b491-550ad9ddb794,20461155,2026-11-12T16:06:59.905925+00:00
+208,synthetic_image_grid,grid_0008.png,"1,2,7,9",Select all orange squares.,7,7c0f340f-465a-442b-a699-5030c1f0c640,20461119,2026-11-12T16:06:59.905925+00:00
+153,synthetic_arithmetic,math_0053.png,4,Calculate the expression shown in the image.,1,ae4266f4-80c6-4bdc-9750-a0c3434643a6,20361164,2026-11-12T16:06:59.905925+00:00
+298,synthetic_image_grid,grid_0098.png,"6,7",Select all orange triangles.,3,3565fec0-36d4-4fe6-aca7-ccf7f53f6b56,20461209,2026-11-12T16:06:59.905925+00:00
+222,synthetic_image_grid,grid_0022.png,"1,9",Select all green circles.,3,fc984ff2-035a-454f-a1b3-f7abe6283425,20461133,2026-11-12T16:06:59.905925+00:00
+210,synthetic_image_grid,grid_0010.png,"1,8",Select all green squares.,3,11c32835-bc2e-4c50-b5e5-e296cfe86ae3,20461121,2026-11-12T16:06:59.905925+00:00
+180,synthetic_arithmetic,math_0080.png,6,Calculate the expression shown in the image.,1,afe69607-bc1c-422d-8d74-bea9bfa2d314,20361191,2026-11-12T16:06:59.905925+00:00
+157,synthetic_arithmetic,math_0057.png,8,Calculate the expression shown in the image.,1,63afce88-cc51-434a-ba0b-47dfe65fbc6b,20361168,2026-11-12T16:06:59.905925+00:00
+31,synthetic_text,text_0031.png,XWKVA,Transcribe the five characters shown in the image.,5,4b951f95-3575-4afa-a61d-672bafa52e3b,20261142,2026-11-12T16:06:59.905925+00:00
+23,synthetic_text,text_0023.png,YWMJH,Transcribe the five characters shown in the image.,5,fc89066d-65b2-43ed-949f-240c584b8d4e,20261134,2026-11-12T16:06:59.905925+00:00
+3,synthetic_text,text_0003.png,DKXYV,Transcribe the five characters shown in the image.,5,eb93c7c4-d41b-42a8-8912-691fcd02fc64,20261114,2026-11-12T16:06:59.905925+00:00
+246,synthetic_image_grid,grid_0046.png,"2,3,5",Select all green squares.,5,3a1a766a-0cf1-4439-89ba-99cab1fbd998,20461157,2026-11-12T16:06:59.905925+00:00
+65,synthetic_text,text_0065.png,YEPEU,Transcribe the five characters shown in the image.,5,6582af73-2d06-4fc2-8fb9-46566a242533,20261176,2026-11-12T16:06:59.905925+00:00
+249,synthetic_image_grid,grid_0049.png,"1,4",Select all orange triangles.,3,b88d3612-aac8-4727-a670-a6b02b4151ec,20461160,2026-11-12T16:06:59.905925+00:00
+48,synthetic_text,text_0048.png,NQHMX,Transcribe the five characters shown in the image.,5,432d62d3-890a-4691-8af7-a7906d2921fb,20261159,2026-11-12T16:06:59.905925+00:00
+100,synthetic_text,text_0100.png,VFENN,Transcribe the five characters shown in the image.,5,51b4aa91-205f-4ef0-9257-8500feb504fe,20261211,2026-11-12T16:06:59.905925+00:00
+281,synthetic_image_grid,grid_0081.png,"5,7",Select all purple squares.,3,8ab145e8-cb43-48fa-a161-c0ccf9bb847b,20461192,2026-11-12T16:06:59.905925+00:00
+18,synthetic_text,text_0018.png,ATNHC,Transcribe the five characters shown in the image.,5,b29b40e2-3a65-4dcd-9204-3c7a07464603,20261129,2026-11-12T16:06:59.905925+00:00
+4,synthetic_text,text_0004.png,NAVHQ,Transcribe the five characters shown in the image.,5,63c19e50-14a8-4a41-afac-685cf0a1c918,20261115,2026-11-12T16:06:59.905925+00:00
+195,synthetic_arithmetic,math_0095.png,14,Calculate the expression shown in the image.,2,1b98bde8-ab3b-4559-b35a-e64244d991ad,20361206,2026-11-12T16:06:59.905925+00:00
+177,synthetic_arithmetic,math_0077.png,10,Calculate the expression shown in the image.,2,adebd7cb-993f-4809-94a9-f1334fbb93d5,20361188,2026-11-12T16:06:59.905925+00:00
+132,synthetic_arithmetic,math_0032.png,16,Calculate the expression shown in the image.,2,131ec489-a015-435b-9d4a-71c56d9020af,20361143,2026-11-12T16:06:59.905925+00:00
+261,synthetic_image_grid,grid_0061.png,"2,8,9",Select all yellow triangles.,5,1ca3240b-2224-498b-ba9f-8d2e6c302a9e,20461172,2026-11-12T16:06:59.905925+00:00
+200,synthetic_arithmetic,math_0100.png,10,Calculate the expression shown in the image.,2,17ea87f1-3515-4c7b-bf98-20920a8a982e,20361211,2026-11-12T16:06:59.905925+00:00
+67,synthetic_text,text_0067.png,VFAPT,Transcribe the five characters shown in the image.,5,2407a17e-204c-4dc1-8f4d-3e12cd8ae68b,20261178,2026-11-12T16:06:59.905925+00:00
+234,synthetic_image_grid,grid_0034.png,"1,5,8",Select all green circles.,5,e7ecf23c-701a-4639-a836-f8ed3fe9f59b,20461145,2026-11-12T16:06:59.905925+00:00
+161,synthetic_arithmetic,math_0061.png,36,Calculate the expression shown in the image.,2,18b1cc6b-47b0-43ef-8b03-ce92298201cb,20361172,2026-11-12T16:06:59.905925+00:00
+252,synthetic_image_grid,grid_0052.png,"1,8",Select all green squares.,3,8c04f58f-c896-4665-ace2-d4f52a5d071e,20461163,2026-11-12T16:06:59.905925+00:00
+93,synthetic_text,text_0093.png,VAQDJ,Transcribe the five characters shown in the image.,5,1767699f-76c2-4258-9cf4-6d748f6a9491,20261204,2026-11-12T16:06:59.905925+00:00
+169,synthetic_arithmetic,math_0069.png,42,Calculate the expression shown in the image.,2,ae2b9904-da71-49d3-98cd-cf2c728c4a1d,20361180,2026-11-12T16:06:59.905925+00:00
+134,synthetic_arithmetic,math_0034.png,10,Calculate the expression shown in the image.,2,34ed3ead-b381-4468-be22-bdd136d0fb0b,20361145,2026-11-12T16:06:59.905925+00:00
+84,synthetic_text,text_0084.png,PUXXQ,Transcribe the five characters shown in the image.,5,b0912083-6956-4152-88ac-52f0617e2d41,20261195,2026-11-12T16:06:59.905925+00:00
+102,synthetic_arithmetic,math_0002.png,4,Calculate the expression shown in the image.,1,2988471b-a89f-46b8-9691-84480364e988,20361113,2026-11-12T16:06:59.905925+00:00
+2,synthetic_text,text_0002.png,HAFQA,Transcribe the five characters shown in the image.,5,586dbc30-501e-46ff-801e-07086312a81e,20261113,2026-11-12T16:06:59.905925+00:00
+139,synthetic_arithmetic,math_0039.png,10,Calculate the expression shown in the image.,2,fe044161-acbd-4900-bedf-4004b9d77038,20361150,2026-11-12T16:06:59.905925+00:00
+272,synthetic_image_grid,grid_0072.png,1,Select all yellow squares.,1,7f6a0627-a64f-4b11-9f45-ac0efdb58dd4,20461183,2026-11-12T16:06:59.905925+00:00
+276,synthetic_image_grid,grid_0076.png,"4,9",Select all orange circles.,3,a14431f0-600e-463b-97fe-55228cedd81f,20461187,2026-11-12T16:06:59.905925+00:00
+44,synthetic_text,text_0044.png,JECFF,Transcribe the five characters shown in the image.,5,e82f2ffd-f7cc-4093-aa5d-116d8f0893a2,20261155,2026-11-12T16:06:59.905925+00:00
+149,synthetic_arithmetic,math_0049.png,6,Calculate the expression shown in the image.,1,f0768145-f7c4-4686-8b8c-8858954c820c,20361160,2026-11-12T16:06:59.905925+00:00
+247,synthetic_image_grid,grid_0047.png,"4,6,9",Select all blue squares.,5,83e68582-c04f-4f1f-a570-fdb3835aac3d,20461158,2026-11-12T16:06:59.905925+00:00
+220,synthetic_image_grid,grid_0020.png,4,Select all yellow squares.,1,69eab276-d39a-4139-9574-2a7e64478f9e,20461131,2026-11-12T16:06:59.905925+00:00
+188,synthetic_arithmetic,math_0088.png,32,Calculate the expression shown in the image.,2,52f13cb9-b5e6-43a6-878c-3049b2dabe62,20361199,2026-11-12T16:06:59.905925+00:00
+225,synthetic_image_grid,grid_0025.png,"6,8",Select all green circles.,3,4007f342-7cf2-4399-80db-65082f4caf31,20461136,2026-11-12T16:06:59.905925+00:00
+71,synthetic_text,text_0071.png,FEPXA,Transcribe the five characters shown in the image.,5,889e2fa0-d15f-4dff-b0c4-b69e15da17be,20261182,2026-11-12T16:06:59.905925+00:00
+19,synthetic_text,text_0019.png,FYCPQ,Transcribe the five characters shown in the image.,5,859dee02-f21b-49db-9879-a40e1c2b6b16,20261130,2026-11-12T16:06:59.905925+00:00
+8,synthetic_text,text_0008.png,VWJAM,Transcribe the five characters shown in the image.,5,7ff90298-dea8-46c3-ade4-8611cc64caec,20261119,2026-11-12T16:06:59.905925+00:00
+226,synthetic_image_grid,grid_0026.png,"4,7",Select all blue triangles.,3,c8bf2eec-2417-4514-9125-f8895d3c4889,20461137,2026-11-12T16:06:59.905925+00:00
+63,synthetic_text,text_0063.png,FXKTE,Transcribe the five characters shown in the image.,5,adbf12bb-456d-40f9-af73-297587b4a24c,20261174,2026-11-12T16:06:59.905925+00:00
+206,synthetic_image_grid,grid_0006.png,"4,9",Select all purple triangles.,3,ce3e6564-9871-4468-be26-b3abd2c05dd4,20461117,2026-11-12T16:06:59.905925+00:00
+59,synthetic_text,text_0059.png,XVTJA,Transcribe the five characters shown in the image.,5,e801bfe0-9ae1-4003-8995-711162096d58,20261170,2026-11-12T16:06:59.905925+00:00
+255,synthetic_image_grid,grid_0055.png,"3,8",Select all orange squares.,3,96ad2238-e420-4cad-999a-dd7a201b6892,20461166,2026-11-12T16:06:59.905925+00:00
+53,synthetic_text,text_0053.png,VCDCC,Transcribe the five characters shown in the image.,5,0847d23b-1f70-4974-975c-78e45aa504eb,20261164,2026-11-12T16:06:59.905925+00:00
+117,synthetic_arithmetic,math_0017.png,36,Calculate the expression shown in the image.,2,7449b9f7-1995-4efa-a66b-4514f9d0587b,20361128,2026-11-12T16:06:59.905925+00:00
+185,synthetic_arithmetic,math_0085.png,14,Calculate the expression shown in the image.,2,50113a2f-9830-478e-a791-a60fbdfde386,20361196,2026-11-12T16:06:59.905925+00:00
+30,synthetic_text,text_0030.png,MHTYF,Transcribe the five characters shown in the image.,5,d1ab8a76-e8eb-4f63-b089-0e7c7aa74e62,20261141,2026-11-12T16:06:59.905925+00:00
+99,synthetic_text,text_0099.png,XNVVK,Transcribe the five characters shown in the image.,5,4be3148a-b8e5-47db-8b21-9314d9336021,20261210,2026-11-12T16:06:59.905925+00:00
+211,synthetic_image_grid,grid_0011.png,9,Select all red squares.,1,e1335da8-143a-4041-b96c-e24ac6487d1a,20461122,2026-11-12T16:06:59.905925+00:00
+14,synthetic_text,text_0014.png,APUXK,Transcribe the five characters shown in the image.,5,4e7bc5b6-f4b4-4dbc-a96a-f1aa41d31cbe,20261125,2026-11-12T16:06:59.905925+00:00
+254,synthetic_image_grid,grid_0054.png,"1,5",Select all red triangles.,3,e4596a12-d667-4856-a60b-0e06c85d4a10,20461165,2026-11-12T16:06:59.905925+00:00
+219,synthetic_image_grid,grid_0019.png,"2,3,5,8",Select all yellow squares.,7,744e57c1-c05a-440c-b247-630e7de62d61,20461130,2026-11-12T16:06:59.905925+00:00
+105,synthetic_arithmetic,math_0005.png,27,Calculate the expression shown in the image.,2,b8652e9f-4f55-45bd-9cd9-1f658f1d791d,20361116,2026-11-12T16:06:59.905925+00:00
+227,synthetic_image_grid,grid_0027.png,6,Select all red squares.,1,ca5129ec-07d2-47ae-81e2-5cfddd9b4bc5,20461138,2026-11-12T16:06:59.905925+00:00
+290,synthetic_image_grid,grid_0090.png,"5,9",Select all green squares.,3,71f31ecf-e063-45c5-a413-2e52187c7397,20461201,2026-11-12T16:06:59.905925+00:00
+69,synthetic_text,text_0069.png,CVUNM,Transcribe the five characters shown in the image.,5,31202ed1-fc7e-4181-8f3c-5a43367136e3,20261180,2026-11-12T16:06:59.905925+00:00
+176,synthetic_arithmetic,math_0076.png,8,Calculate the expression shown in the image.,1,6f76815d-4ede-4704-affa-de468871523b,20361187,2026-11-12T16:06:59.905925+00:00
+145,synthetic_arithmetic,math_0045.png,12,Calculate the expression shown in the image.,2,dde8b6d3-ccba-4553-81de-72bbaf085bdd,20361156,2026-11-12T16:06:59.905925+00:00
+16,synthetic_text,text_0016.png,CYMNX,Transcribe the five characters shown in the image.,5,5c444005-d51c-48b5-b191-72db8e0e4bfb,20261127,2026-11-12T16:06:59.905925+00:00
+43,synthetic_text,text_0043.png,EQCJF,Transcribe the five characters shown in the image.,5,e6425efa-fa0a-4f3e-bb9e-1e5652b5fd21,20261154,2026-11-12T16:06:59.905925+00:00
+218,synthetic_image_grid,grid_0018.png,6,Select all yellow squares.,1,380422ae-4a0f-4d72-8c85-65d0014bdd40,20461129,2026-11-12T16:06:59.905925+00:00
+82,synthetic_text,text_0082.png,HFFAM,Transcribe the five characters shown in the image.,5,8a0671bd-9e70-42a3-aef7-42b172887625,20261193,2026-11-12T16:06:59.905925+00:00
+131,synthetic_arithmetic,math_0031.png,10,Calculate the expression shown in the image.,2,5a9db02f-2066-4c86-8718-3651369a02ef,20361142,2026-11-12T16:06:59.905925+00:00
+229,synthetic_image_grid,grid_0029.png,"6,7,8,9",Select all red triangles.,7,895542fd-ec60-4abb-a42f-54f59ced168e,20461140,2026-11-12T16:06:59.905925+00:00
+130,synthetic_arithmetic,math_0030.png,17,Calculate the expression shown in the image.,2,4d598452-19e5-4b34-bbbc-f92714a06351,20361141,2026-11-12T16:06:59.905925+00:00
+151,synthetic_arithmetic,math_0051.png,4,Calculate the expression shown in the image.,1,affbe55e-0f09-4ff6-90d2-4669ba655539,20361162,2026-11-12T16:06:59.905925+00:00
+158,synthetic_arithmetic,math_0058.png,13,Calculate the expression shown in the image.,2,88522ca9-9071-4350-a66f-b57446eb6f53,20361169,2026-11-12T16:06:59.905925+00:00
+86,synthetic_text,text_0086.png,WRDPR,Transcribe the five characters shown in the image.,5,7a13e848-95d3-4353-aba2-bd15d827ec2b,20261197,2026-11-12T16:06:59.905925+00:00
+292,synthetic_image_grid,grid_0092.png,8,Select all red circles.,1,64fa2dee-5456-4c44-ac26-00b61fcb9839,20461203,2026-11-12T16:06:59.905925+00:00
+109,synthetic_arithmetic,math_0009.png,24,Calculate the expression shown in the image.,2,c38bbeb8-8c56-49e7-ab3e-320eefe908b8,20361120,2026-11-12T16:06:59.905925+00:00
+216,synthetic_image_grid,grid_0016.png,"6,9",Select all orange triangles.,3,f8135cd5-79b3-40de-b37a-1cfea2ba4858,20461127,2026-11-12T16:06:59.905925+00:00
+239,synthetic_image_grid,grid_0039.png,6,Select all blue triangles.,1,2c191371-3230-4abc-8efc-3dc5f5ee0052,20461150,2026-11-12T16:06:59.905925+00:00
+240,synthetic_image_grid,grid_0040.png,"4,8",Select all orange triangles.,3,fc0950de-19e7-42e0-9009-64e4a591db7b,20461151,2026-11-12T16:06:59.905925+00:00
+52,synthetic_text,text_0052.png,WEQFP,Transcribe the five characters shown in the image.,5,dc8b285d-c376-491e-b6c5-0d07f642fe3f,20261163,2026-11-12T16:06:59.905925+00:00
+95,synthetic_text,text_0095.png,DMPXQ,Transcribe the five characters shown in the image.,5,f60315b9-9136-43ae-af18-3d7d71612e03,20261206,2026-11-12T16:06:59.905925+00:00
+294,synthetic_image_grid,grid_0094.png,5,Select all blue circles.,1,9646bffa-c129-43e8-be39-00e7e8d73658,20461205,2026-11-12T16:06:59.905925+00:00
+29,synthetic_text,text_0029.png,XADWR,Transcribe the five characters shown in the image.,5,32456e7a-f2a8-4296-af25-54edda62b57b,20261140,2026-11-12T16:06:59.905925+00:00
+10,synthetic_text,text_0010.png,WHMQD,Transcribe the five characters shown in the image.,5,d3c1d12c-7095-45fe-9422-bc441c393b3e,20261121,2026-11-12T16:06:59.905925+00:00
+154,synthetic_arithmetic,math_0054.png,10,Calculate the expression shown in the image.,2,caa65b20-4fe1-441f-a924-e9e0d0e8a9f1,20361165,2026-11-12T16:06:59.905925+00:00
+42,synthetic_text,text_0042.png,ETNTX,Transcribe the five characters shown in the image.,5,e854d697-21bf-4b92-ac4d-f4cf2ce4ad93,20261153,2026-11-12T16:06:59.905925+00:00
+164,synthetic_arithmetic,math_0064.png,14,Calculate the expression shown in the image.,2,3f669a03-4f98-4115-a259-ab1e77547e6d,20361175,2026-11-12T16:06:59.905925+00:00
+258,synthetic_image_grid,grid_0058.png,"2,6",Select all orange triangles.,3,6d38691d-c951-40de-9dbb-e528c5c042bd,20461169,2026-11-12T16:06:59.905925+00:00
+217,synthetic_image_grid,grid_0017.png,"3,8",Select all green squares.,3,2e27d764-ba83-4972-8482-a54fe466a9f9,20461128,2026-11-12T16:06:59.905925+00:00
+286,synthetic_image_grid,grid_0086.png,"2,4,9",Select all green squares.,5,c31862cc-049f-4e4b-8b68-dc89ee78aac2,20461197,2026-11-12T16:06:59.905925+00:00
+236,synthetic_image_grid,grid_0036.png,"2,4,5",Select all blue squares.,5,de4231ae-08bf-473a-ad68-bb448913143c,20461147,2026-11-12T16:06:59.905925+00:00
+207,synthetic_image_grid,grid_0007.png,3,Select all green circles.,1,c11a7b44-a3b1-4f66-b169-6510c2b5ccf9,20461118,2026-11-12T16:06:59.905925+00:00
+83,synthetic_text,text_0083.png,UJYFJ,Transcribe the five characters shown in the image.,5,b1298209-329b-4b89-a26d-872ca6e89072,20261194,2026-11-12T16:06:59.905925+00:00
+270,synthetic_image_grid,grid_0070.png,"2,6,9",Select all blue circles.,5,a929c611-54db-45df-87c2-010d159dce20,20461181,2026-11-12T16:06:59.905925+00:00
+90,synthetic_text,text_0090.png,FKFKJ,Transcribe the five characters shown in the image.,5,316acb83-24ca-48a8-a359-ddaa2a28c170,20261201,2026-11-12T16:06:59.905925+00:00
+92,synthetic_text,text_0092.png,FCHNM,Transcribe the five characters shown in the image.,5,f74334f3-2303-4847-a93b-8f2548c7b371,20261203,2026-11-12T16:06:59.905925+00:00
+192,synthetic_arithmetic,math_0092.png,11,Calculate the expression shown in the image.,2,9e1c6d93-42b8-444c-a5c7-2cab00c02d47,20361203,2026-11-12T16:06:59.905925+00:00
+74,synthetic_text,text_0074.png,WFHHC,Transcribe the five characters shown in the image.,5,6ca6ecda-9efb-4ee6-a91d-dbcb692296d9,20261185,2026-11-12T16:06:59.905925+00:00
+297,synthetic_image_grid,grid_0097.png,"3,9",Select all orange triangles.,3,ab37ddc8-0016-4032-ba91-d9fecc8206b6,20461208,2026-11-12T16:06:59.905925+00:00
+68,synthetic_text,text_0068.png,ADKVE,Transcribe the five characters shown in the image.,5,a8b6e7f9-bd53-4019-8017-6a5c1a00d9ae,20261179,2026-11-12T16:06:59.905925+00:00
+55,synthetic_text,text_0055.png,AXQVK,Transcribe the five characters shown in the image.,5,d983967c-6764-48a7-b2eb-9ffebc41d864,20261166,2026-11-12T16:06:59.905925+00:00
+5,synthetic_text,text_0005.png,JJRPW,Transcribe the five characters shown in the image.,5,a518f73e-6bfc-471c-95e6-e3449cf53261,20261116,2026-11-12T16:06:59.905925+00:00
+199,synthetic_arithmetic,math_0099.png,12,Calculate the expression shown in the image.,2,97f7e140-2856-4bb3-b5b8-c6b89d94ed6f,20361210,2026-11-12T16:06:59.905925+00:00
+124,synthetic_arithmetic,math_0024.png,16,Calculate the expression shown in the image.,2,2ae5fe7e-a236-4713-944a-4dc8ad0a9e11,20361135,2026-11-12T16:06:59.905925+00:00
+21,synthetic_text,text_0021.png,PCJPU,Transcribe the five characters shown in the image.,5,c7776072-03f0-4ff0-805b-0d5bf5dfa739,20261132,2026-11-12T16:06:59.905925+00:00
+166,synthetic_arithmetic,math_0066.png,14,Calculate the expression shown in the image.,2,c0f5e0ea-c682-4654-b750-8816ebf1bc91,20361177,2026-11-12T16:06:59.905925+00:00
+283,synthetic_image_grid,grid_0083.png,"1,5,6",Select all green triangles.,5,14f45a58-537b-4340-b535-bdbec795089e,20461194,2026-11-12T16:06:59.905925+00:00
+201,synthetic_image_grid,grid_0001.png,6,Select all green squares.,1,e5c73360-a34a-48a6-adf3-bab1f4840cc7,20461112,2026-11-12T16:06:59.905925+00:00
+146,synthetic_arithmetic,math_0046.png,12,Calculate the expression shown in the image.,2,59ba366e-82f3-45b4-98ef-66a1329682ec,20361157,2026-11-12T16:06:59.905925+00:00
+228,synthetic_image_grid,grid_0028.png,"2,4,5",Select all blue squares.,5,99ba02c1-257d-4fdf-826f-37f5b9dcc827,20461139,2026-11-12T16:06:59.905925+00:00
+137,synthetic_arithmetic,math_0037.png,45,Calculate the expression shown in the image.,2,9fd23af5-7e13-406e-85bd-9d19bc386c91,20361148,2026-11-12T16:06:59.905925+00:00
+187,synthetic_arithmetic,math_0087.png,12,Calculate the expression shown in the image.,2,f7318bc0-d60b-4714-b593-163091b75867,20361198,2026-11-12T16:06:59.905925+00:00
+79,synthetic_text,text_0079.png,XNFDP,Transcribe the five characters shown in the image.,5,f8057874-a5b2-4b38-bc56-a8027d7f941b,20261190,2026-11-12T16:06:59.905925+00:00
+147,synthetic_arithmetic,math_0047.png,48,Calculate the expression shown in the image.,2,304174c7-a7de-4d06-806e-483b7749f9e5,20361158,2026-11-12T16:06:59.905925+00:00
+113,synthetic_arithmetic,math_0013.png,14,Calculate the expression shown in the image.,2,41231d7c-2bdf-4797-8298-faa698364d3b,20361124,2026-11-12T16:06:59.905925+00:00
+198,synthetic_arithmetic,math_0098.png,10,Calculate the expression shown in the image.,2,f8aefeed-bc8b-4399-892c-20bb68bde515,20361209,2026-11-12T16:06:59.905925+00:00
+264,synthetic_image_grid,grid_0064.png,"3,9",Select all orange squares.,3,2fea208c-bfe5-46f3-8b94-bf6279c2d18a,20461175,2026-11-12T16:06:59.905925+00:00
+22,synthetic_text,text_0022.png,NDPCC,Transcribe the five characters shown in the image.,5,99f1d54b-fb40-4fb0-864d-a56ff10a5fb8,20261133,2026-11-12T16:06:59.905925+00:00
+245,synthetic_image_grid,grid_0045.png,"3,8",Select all red circles.,3,ec6f582c-eb73-457c-a709-9d279e18d772,20461156,2026-11-12T16:06:59.905925+00:00
+33,synthetic_text,text_0033.png,NTHNH,Transcribe the five characters shown in the image.,5,30a02d12-2f17-4682-b8d7-e9ca6adc484f,20261144,2026-11-12T16:06:59.905925+00:00
+12,synthetic_text,text_0012.png,YVHHX,Transcribe the five characters shown in the image.,5,f9a804a8-b65d-4937-8cfe-a802c39ebd51,20261123,2026-11-12T16:06:59.905925+00:00
+165,synthetic_arithmetic,math_0065.png,81,Calculate the expression shown in the image.,2,8403fb34-7cfc-4e81-9627-11baad063a98,20361176,2026-11-12T16:06:59.905925+00:00
+257,synthetic_image_grid,grid_0057.png,"1,5,6,9",Select all purple triangles.,7,3c69055d-5f3e-434a-9bc6-87c072a29303,20461168,2026-11-12T16:06:59.905925+00:00
+295,synthetic_image_grid,grid_0095.png,"1,6",Select all purple triangles.,3,1a826be5-1857-42af-97d7-7c70334b5c3b,20461206,2026-11-12T16:06:59.905925+00:00
+58,synthetic_text,text_0058.png,YERJA,Transcribe the five characters shown in the image.,5,edb3b414-f5a2-4901-96bf-284b5768eca2,20261169,2026-11-12T16:06:59.905925+00:00
+127,synthetic_arithmetic,math_0027.png,14,Calculate the expression shown in the image.,2,fa86f591-1106-478e-ad24-476de1839be4,20361138,2026-11-12T16:06:59.905925+00:00
+275,synthetic_image_grid,grid_0075.png,"4,7",Select all green circles.,3,56f943d1-0968-4d09-aa09-5bf4a2428bbe,20461186,2026-11-12T16:06:59.905925+00:00
+284,synthetic_image_grid,grid_0084.png,"6,8",Select all orange triangles.,3,ef7d4b6d-647f-43e1-bf53-a3739395f45e,20461195,2026-11-12T16:06:59.905925+00:00
+213,synthetic_image_grid,grid_0013.png,6,Select all red squares.,1,a7896046-09da-4443-a468-8222974e21cb,20461124,2026-11-12T16:06:59.905925+00:00
+291,synthetic_image_grid,grid_0091.png,"1,7",Select all blue triangles.,3,8dbb4d1e-38d7-4af8-830d-5d9c78f3d4b1,20461202,2026-11-12T16:06:59.905925+00:00
+116,synthetic_arithmetic,math_0016.png,7,Calculate the expression shown in the image.,1,387e7644-66e5-40b2-95df-0a36456b7fbe,20361127,2026-11-12T16:06:59.905925+00:00
+80,synthetic_text,text_0080.png,HYKQT,Transcribe the five characters shown in the image.,5,2b910c59-c841-4685-98d8-80bfc289bbfd,20261191,2026-11-12T16:06:59.905925+00:00
+194,synthetic_arithmetic,math_0094.png,16,Calculate the expression shown in the image.,2,d245317a-907e-4c97-b742-71a94f38115f,20361205,2026-11-12T16:06:59.905925+00:00
+87,synthetic_text,text_0087.png,ETTQW,Transcribe the five characters shown in the image.,5,eeaa6cd9-b4ea-4c62-8194-a6c091e02099,20261198,2026-11-12T16:06:59.905925+00:00
+64,synthetic_text,text_0064.png,EPUUT,Transcribe the five characters shown in the image.,5,9c640ddd-d00e-4095-ad97-42a76f074144,20261175,2026-11-12T16:06:59.905925+00:00
+7,synthetic_text,text_0007.png,JPDCA,Transcribe the five characters shown in the image.,5,cc76e3aa-18df-4ef5-8237-e115266af7bf,20261118,2026-11-12T16:06:59.905925+00:00
+38,synthetic_text,text_0038.png,KRVYX,Transcribe the five characters shown in the image.,5,eb4465c2-1435-4bd4-aa3e-fcb88c151921,20261149,2026-11-12T16:06:59.905925+00:00
+299,synthetic_image_grid,grid_0099.png,"1,3,4,9",Select all yellow squares.,7,71ab1e6f-e719-40cd-96e6-1325817b8c66,20461210,2026-11-12T16:06:59.905925+00:00
+140,synthetic_arithmetic,math_0040.png,8,Calculate the expression shown in the image.,1,63649c5d-9fee-481d-86e4-aa2838dd75e2,20361151,2026-11-12T16:06:59.905925+00:00
+20,synthetic_text,text_0020.png,TYVJX,Transcribe the five characters shown in the image.,5,bc9e320c-1c87-4c59-9ae8-99bc3b9732d1,20261131,2026-11-12T16:06:59.905925+00:00
+268,synthetic_image_grid,grid_0068.png,"4,6",Select all yellow triangles.,3,c537b9ed-b5db-4967-b074-f8711617c976,20461179,2026-11-12T16:06:59.905925+00:00
+183,synthetic_arithmetic,math_0083.png,13,Calculate the expression shown in the image.,2,fc920d7e-b52e-4dd6-bc6f-5c6480a38b3d,20361194,2026-11-12T16:06:59.905925+00:00
+232,synthetic_image_grid,grid_0032.png,"4,8",Select all green circles.,3,729e29ec-df4c-4c73-822e-e4a16bea1b8f,20461143,2026-11-12T16:06:59.905925+00:00
+136,synthetic_arithmetic,math_0036.png,48,Calculate the expression shown in the image.,2,ecf536df-3075-4863-882b-47453bddda03,20361147,2026-11-12T16:06:59.905925+00:00
+45,synthetic_text,text_0045.png,YUXNP,Transcribe the five characters shown in the image.,5,8f3b65bd-5b06-4254-a4a5-59a34005b226,20261156,2026-11-12T16:06:59.905925+00:00
+186,synthetic_arithmetic,math_0086.png,8,Calculate the expression shown in the image.,1,ed48d0f1-c0c9-4832-8589-284e1a8bf149,20361197,2026-11-12T16:06:59.905925+00:00
+123,synthetic_arithmetic,math_0023.png,12,Calculate the expression shown in the image.,2,a6c82f28-6ae8-4143-b881-5bfe670f4753,20361134,2026-11-12T16:06:59.905925+00:00
+170,synthetic_arithmetic,math_0070.png,35,Calculate the expression shown in the image.,2,3afc6831-5ddd-4114-997b-ce04e4c488a1,20361181,2026-11-12T16:06:59.905925+00:00
+174,synthetic_arithmetic,math_0074.png,40,Calculate the expression shown in the image.,2,5ab9626e-9f9e-41bf-b870-39c3f7591d69,20361185,2026-11-12T16:06:59.905925+00:00
+61,synthetic_text,text_0061.png,PNFUX,Transcribe the five characters shown in the image.,5,7ed9c12a-2991-4091-9ae5-e80bcb4ce6ea,20261172,2026-11-12T16:06:59.905925+00:00
+293,synthetic_image_grid,grid_0093.png,"5,7,8",Select all red circles.,5,13cc48e9-fd8e-4709-a26a-7cf601433216,20461204,2026-11-12T16:06:59.905925+00:00
+241,synthetic_image_grid,grid_0041.png,"4,6",Select all blue triangles.,3,a04c3aa5-185d-4e44-8189-2a07b9665162,20461152,2026-11-12T16:06:59.905925+00:00
+250,synthetic_image_grid,grid_0050.png,"4,6,9",Select all yellow circles.,5,bdfc944c-9bb1-49ae-a194-916057478ba3,20461161,2026-11-12T16:06:59.905925+00:00
+300,synthetic_image_grid,grid_0100.png,"4,8",Select all purple circles.,3,36d73a4d-8b00-4a3e-819f-17e07741a6a2,20461211,2026-11-12T16:06:59.905925+00:00
+17,synthetic_text,text_0017.png,UEEAR,Transcribe the five characters shown in the image.,5,8ebb2890-c93e-4e4b-8702-7febb9096c55,20261128,2026-11-12T16:06:59.905925+00:00
+144,synthetic_arithmetic,math_0044.png,15,Calculate the expression shown in the image.,2,d477305d-ed5c-4cd5-8c52-13e8cede9a91,20361155,2026-11-12T16:06:59.905925+00:00
+282,synthetic_image_grid,grid_0082.png,"4,5,9",Select all red squares.,5,9b1c367c-4807-4b37-85fc-0c9108782f67,20461193,2026-11-12T16:06:59.905925+00:00
+251,synthetic_image_grid,grid_0051.png,1,Select all green squares.,1,acde4157-f4a5-43b0-9a96-bed5ff4a5f4f,20461162,2026-11-12T16:06:59.905925+00:00
+72,synthetic_text,text_0072.png,EVHVJ,Transcribe the five characters shown in the image.,5,50c70067-2dd9-4d2b-ae66-a21b1d4c0520,20261183,2026-11-12T16:06:59.905925+00:00
+204,synthetic_image_grid,grid_0004.png,"1,9",Select all red squares.,3,3338718c-974d-42ff-a5ac-4cece75cf8b6,20461115,2026-11-12T16:06:59.905925+00:00
+263,synthetic_image_grid,grid_0063.png,"6,7",Select all orange squares.,3,0d9b1e16-e60b-44cb-862f-cd1dceae7b1a,20461174,2026-11-12T16:06:59.905925+00:00
+37,synthetic_text,text_0037.png,EEWXC,Transcribe the five characters shown in the image.,5,fa26133e-e81a-48b1-9644-88be8e7d7ed1,20261148,2026-11-12T16:06:59.905925+00:00
+179,synthetic_arithmetic,math_0079.png,14,Calculate the expression shown in the image.,2,d262d007-68dd-40a4-9d7c-edf2abedecfc,20361190,2026-11-12T16:06:59.905925+00:00
+178,synthetic_arithmetic,math_0078.png,14,Calculate the expression shown in the image.,2,99012d70-b962-4ded-9a59-5f0928df4f55,20361189,2026-11-12T16:06:59.905925+00:00
+110,synthetic_arithmetic,math_0010.png,11,Calculate the expression shown in the image.,2,360c1289-da70-4c3a-8fe2-208f4d30bdb3,20361121,2026-11-12T16:06:59.905925+00:00
+11,synthetic_text,text_0011.png,YWKRC,Transcribe the five characters shown in the image.,5,4db77104-a09b-41f3-932b-bcff6222bbf3,20261122,2026-11-12T16:06:59.905925+00:00
+273,synthetic_image_grid,grid_0073.png,"3,6,8",Select all green circles.,5,f68a7490-4855-432e-8cd9-4165f5316732,20461184,2026-11-12T16:06:59.905925+00:00
+231,synthetic_image_grid,grid_0031.png,"2,6,8",Select all red circles.,5,6b37b006-8823-4f4c-9feb-189fa83364ac,20461142,2026-11-12T16:06:59.905925+00:00
+122,synthetic_arithmetic,math_0022.png,27,Calculate the expression shown in the image.,2,0d55f352-1cf1-4f44-899b-d00475102507,20361133,2026-11-12T16:06:59.905925+00:00
+256,synthetic_image_grid,grid_0056.png,"1,6",Select all blue circles.,3,f53192e5-dee9-4bc6-832a-68cbe1327df0,20461167,2026-11-12T16:06:59.905925+00:00
+121,synthetic_arithmetic,math_0021.png,12,Calculate the expression shown in the image.,2,f87ac5b1-ba5f-4076-bcb2-bd14419e9989,20361132,2026-11-12T16:06:59.905925+00:00
+155,synthetic_arithmetic,math_0055.png,10,Calculate the expression shown in the image.,2,65bb98bd-2b55-4896-acda-b75694caf3a8,20361166,2026-11-12T16:06:59.905925+00:00
+277,synthetic_image_grid,grid_0077.png,"1,8",Select all green triangles.,3,d9ad6bda-a98b-4d4d-878e-23f2a3b41814,20461188,2026-11-12T16:06:59.905925+00:00
+138,synthetic_arithmetic,math_0038.png,7,Calculate the expression shown in the image.,1,cfefd522-073b-426f-ba19-6568106ec472,20361149,2026-11-12T16:06:59.905925+00:00
+265,synthetic_image_grid,grid_0065.png,"1,4,6",Select all green circles.,5,d58727f7-3bc2-42f2-a0a6-51ebe69ca1b4,20461176,2026-11-12T16:06:59.905925+00:00
+32,synthetic_text,text_0032.png,VNJVA,Transcribe the five characters shown in the image.,5,35ecd3fb-4930-4561-80c1-3cb4486f67ee,20261143,2026-11-12T16:06:59.905925+00:00
+1,synthetic_text,text_0001.png,JWJRK,Transcribe the five characters shown in the image.,5,15dff691-8999-4352-a428-2d752700ba28,20261112,2026-11-12T16:06:59.905925+00:00
+233,synthetic_image_grid,grid_0033.png,"3,5",Select all blue triangles.,3,9278436a-dbae-4704-9ca6-935a2e222b0b,20461144,2026-11-12T16:06:59.905925+00:00
+163,synthetic_arithmetic,math_0063.png,13,Calculate the expression shown in the image.,2,252b06ac-d07c-46f8-8417-10764b22d061,20361174,2026-11-12T16:06:59.905925+00:00
+34,synthetic_text,text_0034.png,WFTKT,Transcribe the five characters shown in the image.,5,57f74521-c9e3-4ea5-9181-2ce3e9647536,20261145,2026-11-12T16:06:59.905925+00:00
+167,synthetic_arithmetic,math_0067.png,18,Calculate the expression shown in the image.,2,9bae1bb4-65d2-4b4e-9a55-02827df504b4,20361178,2026-11-12T16:06:59.905925+00:00
+230,synthetic_image_grid,grid_0030.png,"1,8",Select all red squares.,3,134793ac-476b-4253-b870-a01327a57a8f,20461141,2026-11-12T16:06:59.905925+00:00
+184,synthetic_arithmetic,math_0084.png,13,Calculate the expression shown in the image.,2,269a35f0-cb4e-4ca0-bdf3-c15191d1a8bd,20361195,2026-11-12T16:06:59.905925+00:00
+57,synthetic_text,text_0057.png,AFVVP,Transcribe the five characters shown in the image.,5,11e85c05-4b53-4440-aa38-37fb888cd49a,20261168,2026-11-12T16:06:59.905925+00:00
+73,synthetic_text,text_0073.png,YPMWD,Transcribe the five characters shown in the image.,5,f8db74c5-267b-47ca-a6ae-9a18e161cd30,20261184,2026-11-12T16:06:59.905925+00:00
+118,synthetic_arithmetic,math_0018.png,12,Calculate the expression shown in the image.,2,d8f7a34d-49a5-441e-833a-666aea6f965b,20361129,2026-11-12T16:06:59.905925+00:00
+135,synthetic_arithmetic,math_0035.png,64,Calculate the expression shown in the image.,2,7bb4bc6b-5c07-48f7-8939-284b71aa4a9f,20361146,2026-11-12T16:06:59.905925+00:00
+266,synthetic_image_grid,grid_0066.png,"1,2,8",Select all yellow triangles.,5,54eb435c-9415-47cb-a75c-91d9e6699ba0,20461177,2026-11-12T16:06:59.905925+00:00
+173,synthetic_arithmetic,math_0073.png,15,Calculate the expression shown in the image.,2,1114428b-a2bf-47e2-9231-f3edc76b1204,20361184,2026-11-12T16:06:59.905925+00:00
+40,synthetic_text,text_0040.png,AKNVR,Transcribe the five characters shown in the image.,5,a10a57ff-e15a-44a1-9fae-c8607c362c39,20261151,2026-11-12T16:06:59.905925+00:00
+104,synthetic_arithmetic,math_0004.png,16,Calculate the expression shown in the image.,2,ec81a036-12f8-441b-b42e-55d15b7f5d8f,20361115,2026-11-12T16:06:59.905925+00:00
+35,synthetic_text,text_0035.png,WQWKY,Transcribe the five characters shown in the image.,5,5b44edd5-c173-4290-819d-cee5f7b3b488,20261146,2026-11-12T16:06:59.905925+00:00
+285,synthetic_image_grid,grid_0085.png,"6,8",Select all yellow triangles.,3,256b89f6-6a5c-43d4-96d6-f0c6f4fa315a,20461196,2026-11-12T16:06:59.905925+00:00
+88,synthetic_text,text_0088.png,NFWFA,Transcribe the five characters shown in the image.,5,5e51d691-e2f2-45de-8c63-443a137a4624,20261199,2026-11-12T16:06:59.905925+00:00
+143,synthetic_arithmetic,math_0043.png,54,Calculate the expression shown in the image.,2,1c3080e0-cb55-4924-94f6-7b356172456e,20361154,2026-11-12T16:06:59.905925+00:00
+279,synthetic_image_grid,grid_0079.png,"3,7,9",Select all blue circles.,5,ad30ab22-802c-4778-a2c5-eaa1719034ae,20461190,2026-11-12T16:06:59.905925+00:00
+28,synthetic_text,text_0028.png,MAJCA,Transcribe the five characters shown in the image.,5,5bca7c6f-4a67-49e2-8eea-68a4ecbf236e,20261139,2026-11-12T16:06:59.905925+00:00
+26,synthetic_text,text_0026.png,EATRP,Transcribe the five characters shown in the image.,5,45d600fc-63b5-43cb-b572-b69bbf1d51ac,20261137,2026-11-12T16:06:59.905925+00:00
+152,synthetic_arithmetic,math_0052.png,36,Calculate the expression shown in the image.,2,a682cebf-0058-44ef-a15f-cb7e98e22d8c,20361163,2026-11-12T16:06:59.905925+00:00
+193,synthetic_arithmetic,math_0093.png,10,Calculate the expression shown in the image.,2,039d3b92-9f49-4e5c-99e8-32b9119bca18,20361204,2026-11-12T16:06:59.905925+00:00
+212,synthetic_image_grid,grid_0012.png,"1,3,5",Select all green squares.,5,bb2fd0e7-0b44-4c83-abc6-7936e7fe882d,20461123,2026-11-12T16:06:59.905925+00:00
+97,synthetic_text,text_0097.png,WHCXQ,Transcribe the five characters shown in the image.,5,b94600df-06cf-41e5-a6e2-2ae1874798dc,20261208,2026-11-12T16:06:59.905925+00:00
+168,synthetic_arithmetic,math_0068.png,7,Calculate the expression shown in the image.,1,b69506f5-de94-49d8-a0c9-c5beea75ccaa,20361179,2026-11-12T16:06:59.905925+00:00
+56,synthetic_text,text_0056.png,HAQQW,Transcribe the five characters shown in the image.,5,3b96f335-6669-4946-a575-11dc2c55ecfc,20261167,2026-11-12T16:06:59.905925+00:00
+9,synthetic_text,text_0009.png,UYWRN,Transcribe the five characters shown in the image.,5,3cd60a9c-bc1e-4ed5-a05b-3ca59cbd17d4,20261120,2026-11-12T16:06:59.905925+00:00
+175,synthetic_arithmetic,math_0075.png,12,Calculate the expression shown in the image.,2,86522f76-594e-4eb7-9b77-b22ea7d3a01b,20361186,2026-11-12T16:06:59.905925+00:00
+62,synthetic_text,text_0062.png,UQDPU,Transcribe the five characters shown in the image.,5,f09a03e0-b998-4aeb-9a45-87310e08c8f2,20261173,2026-11-12T16:06:59.905925+00:00
+296,synthetic_image_grid,grid_0096.png,"2,5",Select all purple squares.,3,d9e8f2cf-f070-4ebf-9437-060d404d5cdd,20461207,2026-11-12T16:06:59.905925+00:00
+271,synthetic_image_grid,grid_0071.png,"5,7",Select all orange squares.,3,a8163450-22b5-4e9e-ba26-3bdd45a7556c,20461182,2026-11-12T16:06:59.905925+00:00
+47,synthetic_text,text_0047.png,CTXMA,Transcribe the five characters shown in the image.,5,4ec03500-4340-456d-85fb-954187fa06d3,20261158,2026-11-12T16:06:59.905925+00:00
+156,synthetic_arithmetic,math_0056.png,9,Calculate the expression shown in the image.,1,23417889-3947-466d-9d80-1038c83b640c,20361167,2026-11-12T16:06:59.905925+00:00
+267,synthetic_image_grid,grid_0067.png,"1,2",Select all red squares.,3,bd40d6e7-ebe9-4f40-a0b5-d0fe41b3fc34,20461178,2026-11-12T16:06:59.905925+00:00
+13,synthetic_text,text_0013.png,HACFU,Transcribe the five characters shown in the image.,5,19baf827-8e46-4ad7-9387-001cd964075c,20261124,2026-11-12T16:06:59.905925+00:00
+224,synthetic_image_grid,grid_0024.png,"5,7",Select all red squares.,3,adf9890e-1c15-47b4-9f65-b413c3ded932,20461135,2026-11-12T16:06:59.905925+00:00
+221,synthetic_image_grid,grid_0021.png,"3,6,7,9",Select all blue squares.,7,6caa90a7-5830-4bb7-b884-2753ff38dcf7,20461132,2026-11-12T16:06:59.905925+00:00
+253,synthetic_image_grid,grid_0053.png,"4,6,9",Select all green squares.,5,21a47095-f1d8-48b0-85d4-2c0642c500f0,20461164,2026-11-12T16:06:59.905925+00:00
+119,synthetic_arithmetic,math_0019.png,36,Calculate the expression shown in the image.,2,6b5e9635-7d09-49d7-ba7e-61d0d87c0786,20361130,2026-11-12T16:06:59.905925+00:00
+107,synthetic_arithmetic,math_0007.png,15,Calculate the expression shown in the image.,2,7c0dcf8a-dd46-494d-9416-087873d38c8e,20361118,2026-11-12T16:06:59.905925+00:00
+278,synthetic_image_grid,grid_0078.png,"2,4",Select all purple triangles.,3,9cda6c73-68f8-4381-8ff3-9856d80b1715,20461189,2026-11-12T16:06:59.905925+00:00
+243,synthetic_image_grid,grid_0043.png,4,Select all purple triangles.,1,7b29a757-f7db-40f2-af81-69570d87a605,20461154,2026-11-12T16:06:59.905925+00:00
+91,synthetic_text,text_0091.png,HNAFW,Transcribe the five characters shown in the image.,5,b96450b5-410c-4ba0-a2cc-1e87572fc3c9,20261202,2026-11-12T16:06:59.905925+00:00
+182,synthetic_arithmetic,math_0082.png,7,Calculate the expression shown in the image.,1,ab47548d-d2fe-4cac-9726-3d074e64aeb8,20361193,2026-11-12T16:06:59.905925+00:00
+223,synthetic_image_grid,grid_0023.png,"1,3",Select all purple triangles.,3,a1bfec3f-a32d-439e-945e-d857114cc776,20461134,2026-11-12T16:06:59.905925+00:00
+125,synthetic_arithmetic,math_0025.png,10,Calculate the expression shown in the image.,2,b00506d3-fd7d-4db8-9195-3c19d3db8140,20361136,2026-11-12T16:06:59.905925+00:00
+60,synthetic_text,text_0060.png,DYRFQ,Transcribe the five characters shown in the image.,5,1bbbba94-38e5-40d2-84c0-618f24fa38ae,20261171,2026-11-12T16:06:59.905925+00:00
+128,synthetic_arithmetic,math_0028.png,10,Calculate the expression shown in the image.,2,3e99171f-e389-4b01-9666-4f10b902e96a,20361139,2026-11-12T16:06:59.905925+00:00
+196,synthetic_arithmetic,math_0096.png,14,Calculate the expression shown in the image.,2,54f2718b-f64f-4c05-af51-7179ccdabb48,20361207,2026-11-12T16:06:59.905925+00:00
+106,synthetic_arithmetic,math_0006.png,9,Calculate the expression shown in the image.,1,23732508-f73b-4099-b5bf-7ec02b951cb9,20361117,2026-11-12T16:06:59.905925+00:00
+259,synthetic_image_grid,grid_0059.png,"4,5,7",Select all purple squares.,5,24027b39-aca8-4f8a-8c24-1073ee2db927,20461170,2026-11-12T16:06:59.905925+00:00
+108,synthetic_arithmetic,math_0008.png,48,Calculate the expression shown in the image.,2,34c99f6d-3740-44a1-be5f-c50b1a4b9bf5,20361119,2026-11-12T16:06:59.905925+00:00

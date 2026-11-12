@@ -1,0 +1,29 @@
+# Local Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and machine-specific data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+logs/
+
+# Generated screenshots/reports; retain only the directory marker
+artifacts/*
+!artifacts/.gitkeep
+
+# Generated dataset outputs (the CSV labels and generator remain tracked)
+data/synthetic_dataset/images/*
+!data/synthetic_dataset/images/.gitkeep

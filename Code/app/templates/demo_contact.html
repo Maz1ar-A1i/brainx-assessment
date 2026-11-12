@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Owned CAPTCHA test fixture · {{ provider }}</title>
+  <style>
+    body{font-family:Arial,sans-serif;background:#f3f6fb;margin:0;padding:32px;color:#142033}
+    .card{max-width:660px;margin:24px auto;background:white;border:1px solid #dbe3ee;border-radius:16px;padding:28px;box-shadow:0 12px 40px #172b4d12}
+    label{display:block;margin:15px 0 6px}input,textarea{width:100%;box-sizing:border-box;padding:12px;border:1px solid #cbd5e1;border-radius:8px}
+    button{padding:11px 16px;border:0;border-radius:8px;background:#243b6b;color:white;margin-top:18px}
+    button:disabled{opacity:.45}.state{padding:12px;border-radius:8px;background:#eef2f8;margin-top:20px;line-height:1.5}
+    small{color:#64748b}.widget{margin-top:20px;min-height:70px}.hint{background:#eff6ff;border:1px solid #bfdbfe;padding:10px;border-radius:8px;color:#1e40af}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <small>LOCAL OWNED TEST FIXTURE · NO EXTERNAL FORM SUBMISSION</small>
+    <h1>Contact form CAPTCHA test</h1>
+    <p>This page demonstrates the official {{ provider }} test widget and server-side token verification.</p>
+    <p class="hint"><strong>Playwright test:</strong> A separate Chromium window will open. Complete the visible test widget if it asks for a click. The response token is sent directly to this application's backend; the token itself is not displayed or logged.</p>
+    <form id="contact-form">
+      <label for="name">Name</label><input id="name" name="name" value="Assessment Test User">
+      <label for="email">Email</label><input id="email" name="email" type="email" value="test@example.invalid">
+      <label for="message">Message</label><textarea id="message" name="message">Local CAPTCHA verification test.</textarea>
+      <div id="provider-widget" class="widget"></div>
+      <button type="submit" id="demo-continue" disabled>Continue after verification</button>
+    </form>
+    <div id="verification-state" class="state"
+         data-status="loading"
+         data-widget-state="loading"
+         data-token-state="not_received"
+         data-siteverify-state="not_started"
+         data-error-code="">
+      Loading the official provider test widget…
+    </div>
+    <p><small>Form submission is intentionally disabled. Only the token verification workflow is demonstrated.</small></p>
+  </main>
+
+  <script>
+    const provider = {{ provider|tojson }};
+    const siteKey = {{ site_key|tojson }};
+    const state = document.querySelector('#verification-state');
+    const continueButton = document.querySelector('#demo-continue');
+
+    function showState(text, status) {
+      state.textContent = text;
+      state.dataset.status = status;
+      continueButton.disabled = status !== 'success' && status !== 'continued';
+    }
+
+    function widgetReady() {
+      state.dataset.widgetState = 'ready';
+      showState('Provider widget loaded. Complete the visible widget if it requests interaction.', 'widget_ready');
+    }
+
+    function widgetError(code) {
+      state.dataset.widgetState = 'error';
+      state.dataset.errorCode = code || 'provider_widget_error';
+      state.dataset.siteverifyState = 'not_started';
+      showState('The provider widget reported an error. Check external script access and the test site key.', 'widget_load_error');
+    }
+
+    async function verify(token) {
+      if (!token || typeof token !== 'string') {
+        widgetError('empty_provider_callback_token');
+        return;
+      }
+      // Never write the response token into DOM attributes, page text, logs, or reports.
+      state.dataset.tokenState = 'received';
+      state.dataset.siteverifyState = 'pending';
+      state.dataset.errorCode = '';
+      showState('Provider issued a response token. Sending it to the backend Siteverify adapter…', 'verifying');
+      try {
+        const response = await fetch(`/api/v1/providers/${provider}/verify`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ token })
+        });
+        const data = await response.json();
+        if (!response.ok) {
+          const detail = data.detail || data;
+          state.dataset.siteverifyState = 'error';
+          state.dataset.errorCode = detail.error_code || `http_${response.status}`;
+          showState(`Backend verification endpoint failed: ${state.dataset.errorCode}`, 'error');
+          return;
+        }
+        state.dataset.hostname = data.hostname || '';
+        state.dataset.challengeTs = data.challenge_ts || '';
+        if (data.success === true && data.verification_state === 'verified') {
+          state.dataset.siteverifyState = 'success';
+          showState('Official server-side verification succeeded. Local workflow is ready to continue.', 'success');
+        } else if (data.verification_state === 'inconclusive') {
+          state.dataset.siteverifyState = 'error';
+          const codes = Array.isArray(data.error_codes) ? data.error_codes : [];
+          state.dataset.errorCode = data.error_code || codes[0] || 'verification_inconclusive';
+          showState(`Verification could not be completed: ${state.dataset.errorCode}. This is not a provider token rejection.`, 'error');
+        } else {
+          state.dataset.siteverifyState = 'failed';
+          const codes = Array.isArray(data.error_codes) ? data.error_codes : [];
+          state.dataset.errorCode = data.error_code || codes[0] || 'provider_rejected_token';
+          showState(`Provider rejected the token: ${state.dataset.errorCode}`, 'failed');
+        }
+      } catch (error) {
+        state.dataset.siteverifyState = 'error';
+        state.dataset.errorCode = 'siteverify_network_error';
+        showState('The backend Siteverify request could not be completed.', 'error');
+      }
+    }
+
+    window.onCaptchaLabProviderLoad = () => {
+      try {
+        if (provider === 'recaptcha') {
+          grecaptcha.ready(() => {
+            grecaptcha.render('provider-widget', {
+              sitekey: siteKey,
+              callback: verify,
+              'expired-callback': () => {
+                state.dataset.tokenState = 'expired';
+                showState('Token expired. Complete the widget again to obtain a fresh token.', 'failed');
+              },
+              'error-callback': () => widgetError('recaptcha_widget_error')
+            });
+            widgetReady();
+          });
+        } else if (provider === 'hcaptcha') {
+          hcaptcha.render('provider-widget', {
+            sitekey: siteKey,
+            callback: verify,
+            'expired-callback': () => {
+              state.dataset.tokenState = 'expired';
+              showState('Token expired. Complete the widget again to obtain a fresh token.', 'failed');
+            },
+            'error-callback': () => widgetError('hcaptcha_widget_error')
+          });
+          widgetReady();
+        } else if (provider === 'turnstile') {
+          turnstile.render('#provider-widget', {
+            sitekey: siteKey,
+            callback: verify,
+            'expired-callback': () => {
+              state.dataset.tokenState = 'expired';
+              showState('Token expired. Reload the widget to obtain a fresh token.', 'failed');
+            },
+            'error-callback': (code) => widgetError(`turnstile_${code || 'widget_error'}`)
+          });
+          widgetReady();
+        }
+      } catch (error) {
+        widgetError('provider_widget_initialization_error');
+      }
+    };
+
+    window.onCaptchaLabProviderScriptError = () => widgetError('provider_script_load_failed');
+    document.querySelector('#contact-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (state.dataset.status === 'success') {
+        showState('Local test workflow continued. No external form data was submitted.', 'continued');
+      } else {
+        showState('Provider verification is required before the local workflow can continue.', 'failed');
+      }
+    });
+  </script>
+  <script async defer src="{{ script_url }}" onerror="window.onCaptchaLabProviderScriptError && window.onCaptchaLabProviderScriptError()"></script>
+</body>
+</html>

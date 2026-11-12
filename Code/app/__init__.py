@@ -1,0 +1,1 @@
+"""CaptchaLab AI application package."""

@@ -1,0 +1,67 @@
+# ==========================================
+# CaptchaLab Submission .gitignore
+# ==========================================
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Local databases and runtime locks
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+
+# Log files
+logs/
+*.log
+
+# Generated screenshots and test artifacts (retain folder structure via .gitkeep)
+artifacts/*
+!artifacts/.gitkeep
+Code/artifacts/*
+!Code/artifacts/.gitkeep
+
+# Generated synthetic dataset images (retain folder structure via .gitkeep)
+data/synthetic_dataset/images/*
+!data/synthetic_dataset/images/.gitkeep
+Code/data/synthetic_dataset/images/*
+!Code/data/synthetic_dataset/images/.gitkeep
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Note on large files:
+# GitHub blocks individual files > 100 MB.
+# 'Demo video with sound.mp4' is ~124 MB.
+# It should be tracked with Git LFS (`git lfs track "*.mp4"`) or ignored below:
+# *.mp4
+

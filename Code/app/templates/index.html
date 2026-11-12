@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ app_name }} — CAPTCHA Recognition, CV Solver & Token Verification</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-icon">C</span>
+    <div>
+      <strong>{{ app_name }}</strong>
+      <small>Playwright · Computer Vision · Official Verification · Assessment Ready</small>
+    </div>
+  </div>
+  <div class="header-right">
+    <a href="/docs" class="api-link" target="_blank">Interactive API docs ↗</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">AUTHORIZED TEST WORKBENCH</div>
+      <h1>CAPTCHA Recognition & Solving Platform</h1>
+      <p>Automated Playwright DOM inspection for authorized endpoints, CPU-based computer vision solver on synthetic challenges, and official server-side token validation for Google reCAPTCHA, hCaptcha, and Cloudflare Turnstile.</p>
+    </div>
+    <div class="scope-pill">Local-first · CPU-only · Optional Gemini fallback</div>
+  </section>
+
+  <div class="notice">
+    <strong>Assessment Scope Notice:</strong> In compliance with the technical assessment guidelines, all live testing is strictly restricted to synthetic challenges, local test fixtures, and official provider test credentials. Contact-form automation and bulk submissions on unrelated third-party websites are explicitly out of scope.
+  </div>
+
+  <section class="metrics-grid">
+    <article class="metric-card"><span>Total attempts</span><strong id="metric-total">0</strong></article>
+    <article class="metric-card"><span>Successful</span><strong class="green" id="metric-success">0</strong></article>
+    <article class="metric-card"><span>Failed</span><strong class="red" id="metric-failed">0</strong></article>
+    <article class="metric-card"><span>Unverified</span><strong class="amber" id="metric-unverified">0</strong></article>
+    <article class="metric-card"><span>Inconclusive scans</span><strong class="amber" id="metric-inconclusive">0</strong></article>
+    <article class="metric-card"><span>Avg. latency</span><strong id="metric-latency">0 ms</strong></article>
+    <article class="metric-card"><span>Estimated cost</span><strong id="metric-cost">$0.00</strong><small id="metric-cost-note">Unknown cost attempts: 0</small></article>
+  </section>
+
+  <!-- MODULE 01: URL-Driven Playwright Scan -->
+  <section class="panel wide-panel">
+    <div class="panel-header">
+      <div>
+        <div class="eyebrow">MODULE 01 · URL-DRIVEN PLAYWRIGHT SCAN</div>
+        <h2>Inspect an Authorized Test Page</h2>
+      </div>
+      <span class="tag">Playwright Chromium</span>
+    </div>
+    <p class="muted">Enter an allowlisted local or staging URL. Headless Chromium renders the page, inspects scripts, iframes, and forms metadata without harvesting tokens or submitting forms.</p>
+    
+    <label for="target-url">Target URL</label>
+    <div class="url-input-group">
+      <input id="target-url" type="url" value="http://127.0.0.1:8000/demo/contact/turnstile" placeholder="http://127.0.0.1:8000/demo/contact/turnstile" autocomplete="url">
+      <div class="quick-presets">
+        <span>Presets:</span>
+        <button type="button" class="chip-btn" data-url="http://127.0.0.1:8000/demo/contact/turnstile">Turnstile</button>
+        <button type="button" class="chip-btn" data-url="http://127.0.0.1:8000/demo/contact/recaptcha">reCAPTCHA</button>
+        <button type="button" class="chip-btn" data-url="http://127.0.0.1:8000/demo/contact/hcaptcha">hCaptcha</button>
+      </div>
+    </div>
+    
+    <div class="button-row">
+      <button class="primary" id="inspect-button">Inspect with Playwright</button>
+      <label for="show-browser" style="display:flex;align-items:center;gap:7px;font-size:12px;margin:0;">
+        <input id="show-browser" type="checkbox" style="width:auto;"> Show Chromium window
+      </label>
+      <span class="help">Unchecked = headless scan. Checked = visible browser for demonstration/debugging. Only allowlisted owned or authorized hosts are accepted.</span>
+    </div>
+    
+    <div id="inspect-result" class="result-container empty-state">Enter an authorized URL and run the browser scan.</div>
+    <div id="scan-screenshot" class="screenshot-wrap"></div>
+  </section>
+
+  <div class="two-col">
+    <!-- MODULE 02: Custom CV Solver -->
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <div class="eyebrow">MODULE 02 · CUSTOM CV SOLVER</div>
+          <h2>Generate & Solve Synthetic CAPTCHA</h2>
+        </div>
+        <span class="tag">No Tesseract / CPU-Only</span>
+      </div>
+      <p class="muted">Three genuinely different controlled challenge families: text transcription, arithmetic-expression recognition, and 3×3 image-grid colour/shape classification. Each has a dedicated CPU OpenCV solver and its own exact-match benchmark.</p>
+
+      <div class="control-row" style="margin:10px 0 6px;">
+        <label for="challenge-family" style="margin:0;font-size:12px;">Challenge family:</label>
+        <select id="challenge-family" style="width:auto;padding:5px 10px;font-size:12px;">
+          <option value="text" selected>Synthetic text transcription</option>
+          <option value="arithmetic">Arithmetic expression</option>
+          <option value="image-grid">Image-grid shape & colour selection</option>
+        </select>
+      </div>
+
+      <div class="control-row" style="margin:10px 0 6px;">
+        <label for="engine-select" style="margin:0;font-size:12px;">Engine:</label>
+        <select id="engine-select" style="width:auto;padding:5px 10px;font-size:12px;">
+          <option value="auto" selected>Auto (OpenCV; optional Gemini fallback for text)</option>
+          <option value="opencv">Local OpenCV Only (CPU, $0.00)</option>
+          <option value="gemini">Gemini Vision Only (text family only)</option>
+        </select>
+      </div>
+
+      <label for="challenge-prompt" style="margin-top:10px;">Challenge instruction (auto-filled for generated samples)</label>
+      <input id="challenge-prompt" type="text" placeholder="Image-grid uploads: e.g. Select all blue circles." autocomplete="off">
+      <div class="help">For image-grid uploads, provide the task prompt. Generated challenges include their own prompt and server-side ground truth.</div>
+
+      <div class="button-row">
+        <button class="secondary" id="generate-button">Generate Selected Challenge</button>
+        <button class="primary" id="solve-button" disabled>Run Family Solver</button>
+      </div>
+
+      <div class="upload-section">
+        <label for="captcha-upload">Or upload a synthetic/owned challenge image. Identify its family before solving if you are unsure.</label>
+        <div class="upload-row">
+          <input type="file" id="captcha-upload" accept="image/png,image/jpeg,image/webp,image/bmp">
+          <button class="secondary" id="detect-upload-button">Identify CAPTCHA Type</button>
+          <button class="outline" id="upload-solve-button">Solve Upload</button>
+        </div>
+      </div>
+
+      <div id="challenge-preview" class="challenge-preview">Your challenge image appears here.</div>
+      <div id="solve-result" class="result-container empty-state">Generate or upload a challenge to begin.</div>
+    </section>
+
+    <!-- MODULE 03: Official Token Validation -->
+    <section class="panel">
+      <div class="panel-header">
+        <div>
+          <div class="eyebrow">MODULE 03 · OFFICIAL TOKEN VALIDATION</div>
+          <h2>Provider Verification Workflow</h2>
+        </div>
+        <span class="tag">Official Siteverify API</span>
+      </div>
+      <p class="muted">Complete an official provider test widget to receive a provider-issued response token, then verify it through the provider's server-side Siteverify API. The Playwright end-to-end test opens a separate Chromium window; complete the visible widget there if it asks for a click. A widget callback alone is not verification.</p>
+      
+      <label for="provider-select">Provider</label>
+      <select id="provider-select">
+        <option value="recaptcha">Google reCAPTCHA v2</option>
+        <option value="hcaptcha">hCaptcha</option>
+        <option value="turnstile">Cloudflare Turnstile</option>
+      </select>
+
+      <div class="button-row">
+        <button class="secondary" id="load-widget-button">Load Official Widget</button>
+        <button class="outline" id="verify-button">Verify Token</button>
+      </div>
+
+      <div id="provider-widget" class="provider-widget">Load a provider's official test widget here.</div>
+      
+      <label for="provider-token">Response Token (Managed in memory; hidden from logs)</label>
+      <input id="provider-token" type="password" autocomplete="off" placeholder="Token is populated by the provider callback" readonly>
+      
+      <div id="verify-result" class="result-container empty-state">No verification performed yet.</div>
+
+      <div style="margin-top:16px;border-top:1px solid var(--line);padding-top:14px;">
+        <button class="primary-ghost" id="playwright-provider-test">Run Playwright-Assisted Provider Test (opens Chromium)</button>
+        <div id="playwright-result" class="result-container empty-state" style="margin-top:10px;">Playwright-assisted verification ready. Complete the official test widget in the opened browser if it asks for interaction.</div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MODULE 04: Supplied Dataset & Batch Benchmark -->
+  <section class="panel wide-panel">
+    <div class="panel-header">
+      <div>
+        <div class="eyebrow">MODULE 04 · SUPPLIED DATASET & BATCH EVALUATION</div>
+        <h2>200 E-Commerce Platforms & Synthetic Dataset Evaluation</h2>
+      </div>
+      <span class="tag">Metadata & Batch Accuracy</span>
+    </div>
+    
+    <div class="dataset-tabs">
+      <button class="tab-btn active" id="tab-btn-dataset">E-Commerce Platforms (200 records)</button>
+      <button class="tab-btn" id="tab-btn-batch">Batch Synthetic Dataset Benchmark (Bonus)</button>
+    </div>
+
+    <!-- Tab 1: 200 E-Commerce Records -->
+    <div id="tab-content-dataset" class="tab-content active">
+      <div class="dataset-summary-bar" id="dataset-summary-cards">
+        <div class="summary-pill"><span>Dataset:</span> <strong>Loading…</strong></div>
+      </div>
+
+      <div class="table-controls">
+        <input type="text" id="dataset-search" placeholder="Filter by company, platform, CAPTCHA type..." style="max-width:320px;">
+        <div class="dataset-upload-inline">
+          <input type="file" id="csv-file" accept=".csv,text/csv" style="display:none;">
+          <button class="outline btn-sm" id="custom-csv-btn">Re-Import CSV</button>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="dataset-table" id="dataset-table">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Platform</th>
+              <th>Category</th>
+              <th>CAPTCHA Type</th>
+              <th>Contact Page</th>
+            </tr>
+          </thead>
+          <tbody id="dataset-tbody">
+            <tr><td colspan="5" style="text-align:center;">Loading dataset rows...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-pagination">
+        <span id="pagination-info">Showing 1-15 of 200</span>
+        <div>
+          <button class="outline btn-sm" id="prev-page-btn" disabled>Previous</button>
+          <button class="outline btn-sm" id="next-page-btn">Next</button>
+        </div>
+      </div>
+      <div id="dataset-result" style="display:none;"></div>
+    </div>
+
+    <!-- Tab 2: Batch Benchmark -->
+    <div id="tab-content-batch" class="tab-content">
+      <p class="muted">Runs a balanced benchmark across the text, arithmetic and image-grid synthetic families. Reports exact-match accuracy and latency separately for each family. Character-level accuracy is reported only for text transcription.</p>
+      <div class="button-row">
+        <button class="primary" id="run-batch-eval-btn">Run Three-Family Benchmark (300 Samples)</button>
+        <span class="help">Fulfills technical assessment bonus requirement.</span>
+      </div>
+      <div id="batch-eval-result" class="result-container empty-state">Click above to run the batch benchmark.</div>
+    </div>
+  </section>
+
+  <!-- SYSTEM STATUS -->
+  <section class="panel wide-panel">
+    <div class="panel-header">
+      <div>
+        <div class="eyebrow">SYSTEM STATUS</div>
+        <h2>Runtime Dependencies & Environment Health</h2>
+      </div>
+      <span class="tag">Healthy</span>
+    </div>
+    <div class="status-grid">
+      <div class="status-box"><span>Backend Server</span><strong id="health-status">Checking…</strong></div>
+      <div class="status-box"><span>Browser Automation</span><strong id="playwright-status">Checking…</strong></div>
+      <div class="status-box"><span>CV Engine</span><strong>OpenCV Multi-Font CPU</strong></div>
+      <div class="status-box"><span>External OCR Binary</span><strong>None (Self-Contained)</strong></div>
+      <div class="status-box"><span>Database</span><strong>SQLite Local Store</strong></div>
+      <div class="status-box"><span>Cost Reporting</span><strong>Local + known API estimates</strong></div>
+    </div>
+    <div style="margin-top:14px;display:flex;justify-content:flex-end;">
+      <button class="outline btn-sm" id="refresh-metrics">Refresh Metrics</button>
+    </div>
+  </section>
+
+  <footer>
+    CaptchaLab AI · Standalone Candidate Assessment Platform · For synthetic challenges, localhost, owned sites, and official test keys only.
+  </footer>
+</main>
+
+<script id="site-keys" type="application/json">{{ site_keys | tojson }}</script>
+<script src="/static/app.js"></script>
+</body>
+</html>
